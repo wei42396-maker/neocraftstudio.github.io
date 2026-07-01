@@ -3,8 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NeoCraft Studio — Custom 3D Prints</title>
-<meta name="description" content="NeoCraft Studio: SSM registered 3D printing service. Turning ideas into 3D reality with custom prints made just for you. DM or WhatsApp to order.">
+<title>NeoCraft Studio — Custom 3D Printing in Penang, Malaysia</title>
+<meta name="description" content="NeoCraft Studio is a SSM registered 3D printing studio based in Penang, Malaysia. Specialising in custom 3D prints, corporate gifts, personalised gifts, and custom pet urns. WhatsApp us to view our catalogue.">
+<meta name="keywords" content="3D printing Malaysia, custom 3D print Penang, corporate gifts Malaysia, personalised gifts Malaysia, custom pet urn Malaysia, 3D printed pet memorial, SSM registered 3D printing, custom merchandise Penang, 3D printing service Penang, kedai print 3D Penang">
 <style>
   :root {
     --bg: #15171a;
@@ -198,6 +199,98 @@
     height: auto;
     opacity: 0.85;
   }
+
+  /* ---------- ABOUT SECTION ---------- */
+  .about {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 5rem 2rem;
+  }
+
+  .section-label {
+    font-size: 0.72rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+
+  .section-label.green { color: var(--green); }
+  .section-label.orange { color: var(--orange); }
+  .section-label.pink { color: var(--pink); }
+
+  .about h2 {
+    font-family: var(--font-display);
+    font-size: clamp(1.6rem, 4vw, 2.4rem);
+    font-weight: 800;
+    line-height: 1.15;
+    margin-bottom: 1.25rem;
+    color: var(--text);
+  }
+
+  .about p {
+    color: #a7a9ad;
+    font-size: 1.05rem;
+    margin-bottom: 1rem;
+    max-width: 65ch;
+  }
+
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin: 2.5rem 0;
+  }
+
+  .service-card {
+    background: var(--bg-soft);
+    border: 1px solid rgba(255,255,255,0.07);
+    border-radius: 12px;
+    padding: 1.4rem 1.2rem;
+  }
+
+  .service-card .icon { font-size: 1.6rem; margin-bottom: 0.6rem; }
+  .service-card h3 { font-size: 0.95rem; font-weight: 700; margin-bottom: 0.3rem; color: var(--text); }
+  .service-card p { font-size: 0.85rem; color: #a7a9ad; margin: 0; }
+
+  .divider {
+    border: none;
+    border-top: 1px solid rgba(255,255,255,0.07);
+    margin: 0 2rem;
+  }
+
+  /* ---------- CONTACT SECTION ---------- */
+  .contact {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 4rem 2rem 5rem;
+  }
+
+  .contact-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  .contact-card {
+    flex: 1 1 220px;
+    background: var(--bg-soft);
+    border: 1px solid rgba(255,255,255,0.07);
+    border-radius: 12px;
+    padding: 1.4rem 1.2rem;
+    text-decoration: none;
+    color: var(--text);
+    transition: border-color 0.15s, transform 0.15s;
+  }
+
+  .contact-card:hover { transform: translateY(-2px); }
+  .contact-card.wa:hover { border-color: var(--green); }
+  .contact-card.email:hover { border-color: var(--pink); }
+  .contact-card.location:hover { border-color: var(--orange); }
+
+  .contact-card .icon { font-size: 1.5rem; margin-bottom: 0.5rem; }
+  .contact-card h3 { font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.3rem; color: #a7a9ad; }
+  .contact-card p { font-size: 0.95rem; color: var(--text); margin: 0; word-break: break-all; }
 </style>
 </head>
 <body>
@@ -208,7 +301,7 @@
     <img src="logo.png" alt="NeoCraft Studio logo" class="logo">
 
     <p class="tagline">
-      NeoCraft Studio prints what you imagine — layer by layer, built to your exact specs.
+      Malaysia's trusted 3D printing studio — turning your ideas into reality, one layer at a time.
     </p>
 
     <div class="features">
@@ -228,6 +321,68 @@
 
     <div class="ssm" id="contact">DM or WhatsApp to get a quote — we'll bring your idea to life</div>
   </main>
+
+  <hr class="divider">
+
+  <!-- ABOUT SECTION -->
+  <section class="about">
+    <p class="section-label green">About Us</p>
+    <h2>Penang's home for custom 3D printing</h2>
+    <p>Based in <strong style="color:var(--text)">Penang, Malaysia</strong>, NeoCraft Studio specialises in high-quality custom 3D printing for individuals and businesses alike. Whether you're looking for a one-of-a-kind personalised gift, corporate merchandise, or a meaningful keepsake — we bring your vision to life with precision and care.</p>
+    <p>We are proud to be one of Malaysia's dedicated specialists in <strong style="color:var(--pink)">custom pet urns</strong> — a dignified, personalised way to honour your beloved companion.</p>
+
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="icon">✨</div>
+        <h3>Custom 3D Prints</h3>
+        <p>Unique designs made exactly to your specifications.</p>
+      </div>
+      <div class="service-card">
+        <div class="icon">🎁</div>
+        <h3>Corporate Gifts</h3>
+        <p>Bulk orders and branded merchandise for businesses.</p>
+      </div>
+      <div class="service-card">
+        <div class="icon">🐾</div>
+        <h3>Custom Pet Urns</h3>
+        <p>A heartfelt, personalised tribute for your beloved pet.</p>
+      </div>
+      <div class="service-card">
+        <div class="icon">🤝</div>
+        <h3>Collaborations</h3>
+        <p>Open to creative and business partnerships.</p>
+      </div>
+    </div>
+
+    <p>Browse our catalogue on <strong style="color:var(--green)">WhatsApp</strong> — we'd love for you to visit us or connect online. Walk-ins and viewing appointments are welcome at our Penang studio.</p>
+  </section>
+
+  <hr class="divider">
+
+  <!-- CONTACT SECTION -->
+  <section class="contact" id="contact">
+    <p class="section-label pink">Get in Touch</p>
+    <h2 style="font-family:var(--font-display);font-size:clamp(1.6rem,4vw,2.4rem);font-weight:800;margin-bottom:0.5rem;">Let's make something great</h2>
+    <p style="color:#a7a9ad;font-size:1.05rem;">DM or WhatsApp to get a quote — we'll bring your idea to life.</p>
+
+    <div class="contact-cards">
+      <a class="contact-card wa" href="https://wa.me/message/L3Y3QECLP3YXF1" target="_blank" rel="noopener">
+        <div class="icon">💬</div>
+        <h3>WhatsApp / Orders</h3>
+        <p>Chat with us & view our catalogue</p>
+      </a>
+      <a class="contact-card email" href="mailto:neocraftstudio.msia@gmail.com">
+        <div class="icon">📧</div>
+        <h3>Collaboration Enquiries</h3>
+        <p>neocraftstudio.msia@gmail.com</p>
+      </a>
+      <div class="contact-card location">
+        <div class="icon">📍</div>
+        <h3>Studio Location</h3>
+        <p>Penang, Malaysia</p>
+      </div>
+    </div>
+  </section>
 
   <footer>
     <img src="logo.png" alt="NeoCraft Studio" class="footer-logo">
